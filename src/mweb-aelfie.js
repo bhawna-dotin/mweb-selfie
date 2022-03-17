@@ -123,9 +123,11 @@ class App extends React.Component {
     return (
       <div>
         {playerORImage}
+        <div>
         <button onClick={this.initializeMedia}>Take Photo</button>
         <button onClick={this.capturePicture}>Capture</button>
         <button onClick={this.switchCamera}>Switch</button>
+        </div>
       </div>
     );
   }
